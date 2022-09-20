@@ -3,6 +3,18 @@
 let btnCreate = document.querySelector (".create");
 console.log(btnCreate);*/
 
-let btnCreate = document.querySelector ("#create");
+/*
+3//let btnCreate = document.querySelector ("#create");
     console.log =(btnCreate.style.backgroundColor = "green");
-    // console.log(btnCreate);
+    // console.log(btnCreate);*/
+
+
+4//
+document.querySelector('#new-todo').addEventListener('submit', (e) => {
+    e.preventDefault()
+    const text = e.target.elements.text.value.trim()
+    alert(text);
+})
+
+
+
